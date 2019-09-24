@@ -1,4 +1,4 @@
-# Alpine + QEMU + ARMHF (arm32v7)
+# Alpine + QEMU + ARMHF (arm32v6)
 
 ![Docker Build Status](https://img.shields.io/docker/build/anacha/arm32v7-alpine-qemu.svg)
 
@@ -9,7 +9,7 @@
 This project enables building a *Docker* image to allow running *64-bits ARM*
 *Alpine Linux* builds on non-arm hosts (like [Travis](https://travis-ci.org) build agents).
 
-- [arm32v7/alpine](https://hub.docker.com/r/arm32v7/alpine)
+- [arm32v6/alpine](https://hub.docker.com/r/arm32v6/alpine)
 - [qemu-user-static](https://github.com/multiarch/qemu-user-static/releases)
 
 ## Usage
