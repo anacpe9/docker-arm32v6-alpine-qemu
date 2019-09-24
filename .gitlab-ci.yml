@@ -1,0 +1,19 @@
+image: anacha/arm32v6-alpine-qemu:latest
+
+stages:
+  - welcome
+
+before_script:
+  - uname -a
+
+hello world CI/CD job:
+  stage: welcome
+  tags:
+    - aarch64
+    - alpine
+  services:
+    - docker:dind
+  script:
+    - cat /etc/alpine-release
+    - apk --print-arch
+    - uname -a
